@@ -3,7 +3,7 @@
 
 var path = require('path');
 
-var filename = process.argv.length > 2 ? process.argv[2] : process.argv[1];
+var filename = process.env.INJECT_FILE || ( process.argv.length > 2 ? process.argv[2] : process.argv[1] );
 filename = path.resolve(filename);
 
 
