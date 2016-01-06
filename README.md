@@ -3,7 +3,7 @@ node module that simply replaces placeholders with environment variables values 
 
 # bash one liner
 ```
-curl -O - https://goo.gl/lGOcL8 | INJECT_FILE=__file.json__ node 
+curl https://goo.gl/j6qnth | INJECT_FILE=__file.json__ node 
 ```
 
 
