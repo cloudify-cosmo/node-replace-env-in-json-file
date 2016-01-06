@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-
 var path = require('path');
 
 var filename = process.env.INJECT_FILE || ( process.argv.length > 2 ? process.argv[2] : process.argv[1] );
