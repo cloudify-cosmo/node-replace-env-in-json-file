@@ -1,6 +1,11 @@
 # node-replace-env-in-json-file
 node module that simply replaces placeholders with environment variables values into a json file
 
+# bash one liner
+```
+curl -O - https://goo.gl/lGOcL8 | INJECT_FILE=__file.json__ node 
+```
+
 
 # example
 
